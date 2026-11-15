@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Day I Finally Maxed My Heroes | Town Hall 18</title>
+<meta name="description" content="A permanent live stopwatch for the day I maxed all my heroes at Town Hall 18 in Clash of Clans.">
+<meta name="theme-color" content="#07050d">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="bg" aria-hidden="true"><div class="hall"></div></div>
+
+<header class="hero">
+  <p class="sub">Town Hall 18 — Every Hero. Fully Maxed. One Legendary Achievement.</p>
+  <h1>THE DAY I FINALLY<br>MAXED MY HEROES</h1>
+  <p class="since">Time since 15 November 2026, 2:00:00 PM Bangladesh Time</p>
+
+  <div class="clock" role="timer" aria-label="Time since heroes were maxed">
+    <div class="unit"><b id="d">000</b><span>Days</span></div>
+    <i>:</i>
+    <div class="unit"><b id="h">00</b><span>Hours</span></div>
+    <i>:</i>
+    <div class="unit"><b id="m">00</b><span>Minutes</span></div>
+    <i>:</i>
+    <div class="unit"><b id="s">00</b><span>Seconds</span></div>
+  </div>
+  <p class="sync" id="sync">Using device clock</p>
+</header>
+
+<main>
+  <section class="achv">
+    <div class="badge" aria-label="Maxed Heroes, Town Hall 18, Achievement Unlocked, 15 November 2026">
+      <div class="ring">
+        <small>MAXED HEROES</small>
+        <strong>TH18</strong>
+        <em>TOWN HALL 18</em>
+        <small>ACHIEVEMENT UNLOCKED</small>
+        <small class="dt">15 NOVEMBER 2026</small>
+      </div>
+    </div>
+    <div class="txt">
+      <h2>ALL HEROES MAXED!</h2>
+      <h3>TOWN HALL 18 — COMPLETE</h3>
+      <p>Every upgrade, every battle, every resource, and every moment of patience led to this achievement. The journey is complete. My heroes have finally reached their maximum level for Town Hall 18.</p>
+    </div>
+  </section>
+
+  <section class="proof">
+    <h2>THE PROOF OF MY ACHIEVEMENT</h2>
+    <p class="lead">These are the moments that made it official.</p>
+    <div class="gallery">
+      <figure><button class="frame" data-i="0" aria-label="Enlarge screenshot 1"><img alt="Clash of Clans screenshot 1: all heroes maxed at Town Hall 18" loading="lazy" decoding="async" src="https://raw.githubusercontent.com/AlphaStopwatch/I-finally-Max-my-heroes-according-Town-Hall-18/main/Screenshot_20261115_154456_b864ea0b534de5941fd13c5c04397e2b.jpg"></button><figcaption>Screenshot 1</figcaption></figure>
+      <figure><button class="frame" data-i="1" aria-label="Enlarge screenshot 2"><img alt="Clash of Clans screenshot 2: all heroes maxed at Town Hall 18" loading="lazy" decoding="async" src="https://raw.githubusercontent.com/AlphaStopwatch/I-finally-Max-my-heroes-according-Town-Hall-18/main/Screenshot_20261115_154459_b864ea0b534de5941fd13c5c04397e2b.jpg"></button><figcaption>Screenshot 2</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="info">
+    <h2>Achievement record</h2>
+    <dl>
+      <div><dt>Achievement</dt><dd>All Heroes Maxed</dd></div>
+      <div><dt>Game</dt><dd>Clash of Clans</dd></div>
+      <div><dt>Town Hall</dt><dd>TH18</dd></div>
+      <div><dt>Completion Date</dt><dd>15 November 2026</dd></div>
+      <div><dt>Completion Time</dt><dd>2:00 PM (Bangladesh Time)</dd></div>
+      <div><dt>Status</dt><dd class="ok">Successfully Completed</dd></div>
+      <div><dt>Timer Status</dt><dd class="ok">Running Forever</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer><p class="slogan">THE GRIND IS OVER. THE LEGACY REMAINS.</p></footer>
+
+<div class="lb" id="lb" hidden>
+  <button class="x" id="lbx" aria-label="Close">×</button>
+  <img id="lbimg" alt="">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
